@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Kota Rusa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 450px;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .login-container img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+
+        .login-container h1 {
+            font-size: 28px;
+            color: #004d40;
+            margin-bottom: 10px;
+        }
+
+        .login-container p {
+            font-size: 14px;
+            color: #616161;
+            margin-bottom: 30px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #c0c0c0;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #00796b;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #005b4f;
+        }
+
+        .or {
+            margin: 20px 0;
+            font-size: 14px;
+            color: #616161;
+        }
+
+        .google-btn {
+        background-color: #e0f7fa;
+        color: #004d40;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        font-weight: bold;
+        gap: 12px;
+        line-height: 24px;
+    }
+
+    .google-btn img {
+            width: 24px;
+            height: 24px;
+            position: relative;
+            top: 10px;
+        }
+
+    .google-btn:hover {
+        background-color: #b2ebf2;
+    }
+
+        .signup {
+            font-size: 14px;
+            margin-top: 20px;
+        }
+
+        .signup a {
+            color: #00796b;
+            text-decoration: none;
+        }
+
+        .signup a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .login-container {
+                width: 90%;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="asset/logo wisata1.png" alt="Wisata Kota Rusa">
+        <h1>Wisata Kota Rusa</h1>
+        <p>- IF NOT NOW, WHEN? -</p>
+        <form>
+            <input type="email" class="form-input" placeholder="Email ID">
+            <input type="password" class="form-input" placeholder="Password">
+            <a href="home.html">
+            <button type="button" class="btn">LOG IN</button>
+        </a>
+        </form>
+        <div class="or">or</div>
+        <button type="button" class="google-btn">
+            <img src="asset/Google__G__logo.png" alt="Google"> Continue With Google
+        </button>
+        <div class="signup">
+            Don't have an account? <a href="sign_in.html">Sign up here</a>
+        </div>
+    </div>
+</body>
+</html>
